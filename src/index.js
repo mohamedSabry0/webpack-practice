@@ -1,11 +1,7 @@
-// import _ from 'lodash';
-import './style.css';
+import './style.scss';
 function component() {
   const element = document.createElement('div');
-
-  // Lodash, imported
-
-  // element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  
   element.classList.add('hello');
 
   return element;
