@@ -1,6 +1,21 @@
-# Leaderboard
+# Webpack boilerplate
 
-> A simple app that consumes an API for tracking scores in games.
+> In this boilerplate, you will get a setup with support for:
+- webpack
+- live server
+- CSS, SCSS and SASS files
+- linter rules setup following microverse curriculum
+- images are bundled with webpack
+- html template which would be bundled as well
+- uses source mapping for easier debugging
+
+
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.2.0",
+    "jest-environment-jsdom": "^28.1.3",
+    "xml-loader": "^1.2.1"
+
+
 
 ## Built With
 

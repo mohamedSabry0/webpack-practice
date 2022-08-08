@@ -1,10 +1,6 @@
 import './style.scss';
-function component() {
-  const element = document.createElement('div');
-  
-  element.classList.add('hello');
-
-  return element;
-}
+import component from './modules/component.js';
 
 document.body.appendChild(component());
+
+export default component;
